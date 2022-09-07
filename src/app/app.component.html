@@ -1,0 +1,86 @@
+
+    <div class="row">
+        <div class="nav-container">
+
+            <nav>
+                <div class="logo">
+                    <img src="assets/logo1.svg" alt="logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" >Laptops</a></li>
+                    <li><a href="#">Desktop PCs</a></li>
+                    <li><a href="#">Networking Devices</a></li>
+                    <li><a href="#" >Printers & Scanners</a></li>
+                    <li><a href="#">PC Parts</a></li>
+                    <li><a href="#" >All Other Products</a></li>
+                    <li><a href="#" >Repairs</a></li>
+        
+                </ul>
+                <div class="arrow">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+        
+                </div>
+               
+            </nav>
+        </div>
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+                                <div class="nav2">
+                                        <a href="#">About Product</a>
+               
+                                </div>
+            
+        </div>
+        <div class="col-md-auto " >
+            <label>Price $299.00</label>
+            <input type="number" size="2"  >
+            
+
+        </div>
+        <div class="col col-lg-2">
+                                <div class="btn">
+                <button class="btn btn-primary" (click)="pay(20)">Buy Now</button>
+                                </div>
+        </div>
+      
+    </div>
+   
+    
+</div>
+
+<hr>
+
+
+
+
+
+<!-- <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a> -->
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <app-left-part></app-left-part>
+            
+    
+        </div>
+        <div class="col-5">
+            <div class="in"> <app-right-part [images]="images" [autoSlide]="true"></app-right-part> 
+            </div>
+           
+            
+        </div>
+    
+    </div>
+
+   
+</div>
+
+
+
